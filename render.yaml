@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: cicd-lab
+    runtime: node
+    buildCommand: npm ci && npm run build
+    startCommand: npm start
